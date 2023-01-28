@@ -3,8 +3,8 @@ import requests
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
-SPOTIFY_CLIENT_ID = "42bbc2ac5c434d45afbc014ad5e2d22c"
-SPOTIFY_CLIENT_SECRET = "30718f778d904eadadacb77151aad261"
+SPOTIFY_CLIENT_ID = "Your client id"
+SPOTIFY_CLIENT_SECRET = "Your client secret id"
 SPOTIFY_REDIRECT_URI = "https://example.com/callback/"
 
 SPOTIFY_SCOPE = "playlist-modify"
