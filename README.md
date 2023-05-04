@@ -7,27 +7,25 @@ These instructions will get you a copy of the project up and running on your loc
 ## Prerequisites
 In order to run this project, you will need:
 
-A Spotify account
-Python 3.x
-Pip
-Spotipy library
-Beautiful Soup 4 library
+* A Spotify account
+* Python 3.x
+* Spotipy library
+* Beautiful Soup 4 library
 ## Installing
-Clone the repository:
-bash
 
-Install the Spotipy library:
 
-Install the Beautiful Soup 4 library:
+* Install the Spotipy library:
 
-Create a Spotify application and obtain the client_id and client_secret.
+* Install the Beautiful Soup 4 library:
 
-Create a file named .env in the root directory of the project and add the following lines:
+* Create a Spotify application and obtain the client_id and client_secret.
+
+* Create a file named .env in the root directory of the project and add the following lines:
 
 
 
 ## Usage
-To run the Spotify Bot, navigate to the root directory of the project and run the following command:
+To run the Spotify Bot, navigate to the root directory of the project:
 
 The bot will ask you to enter a date in the format YYYY-MM-DD. Once you enter the date, the bot will retrieve the top 100 songs for that date using the Spotify API and web scraping. It will then display the list of songs in the terminal.
 
